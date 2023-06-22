@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "WmY9Srhn6v0B4yBToF/oCslUPWYZR6G/EAED58aSSzt2CbVA3+rzYBSnam1r6FMcmd/H470kIs0uaiaZEw0iXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mateu\\Desktop\\MAS\\proj\\MAS_projekt\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mateu\\.nuget\\packages\\ardalis.result\\7.1.0\\ardalis.result.7.1.0.nupkg.sha512",
+    "C:\\Users\\Mateu\\.nuget\\packages\\ardalis.specification\\7.0.0\\ardalis.specification.7.0.0.nupkg.sha512",
+    "C:\\Users\\Mateu\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\Mateu\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Mateu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

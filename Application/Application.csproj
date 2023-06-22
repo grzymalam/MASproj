@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Queries\Get\**" />
+    <Compile Remove="Queries\IsPieceOfEquipmentAvailable\**" />
+    <Compile Remove="Queries\NewFolder1\**" />
+    <EmbeddedResource Remove="Queries\Get\**" />
+    <EmbeddedResource Remove="Queries\IsPieceOfEquipmentAvailable\**" />
+    <EmbeddedResource Remove="Queries\NewFolder1\**" />
+    <None Remove="Queries\Get\**" />
+    <None Remove="Queries\IsPieceOfEquipmentAvailable\**" />
+    <None Remove="Queries\NewFolder1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Result" Version="7.1.0" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\SharedKernel\SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>
